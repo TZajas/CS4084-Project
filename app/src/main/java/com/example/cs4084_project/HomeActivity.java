@@ -23,7 +23,7 @@ public class HomeActivity extends AppCompatActivity {
 
         auth = FirebaseAuth.getInstance();
         logoutButton = findViewById(R.id.logout_btn);
-        detailsDisplay = findViewById(R.id.user_details);
+        //detailsDisplay = findViewById(R.id.user_details);
         user = auth.getCurrentUser();
 
         if(user==null){
@@ -31,7 +31,7 @@ public class HomeActivity extends AppCompatActivity {
             startActivity(intent);
             finish();
         }else{
-            detailsDisplay.setText(user.getEmail());
+            //detailsDisplay.setText(user.getEmail());
         }
 
         logoutButton.setOnClickListener(new View.OnClickListener() {

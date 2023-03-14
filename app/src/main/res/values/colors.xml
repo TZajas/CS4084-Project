@@ -9,5 +9,10 @@
     <color name="white">#FFFFFFFF</color>
     <color name="background">#FFE3E3</color>
     <color name="button">#93B5C6</color>
+    <color name="textbox">#C9CCD5</color>
+    <color name="orangebtn">#FFBD67</color>
+    <color name="greenbtn">#5BE7A9</color>
+    <color name="yellowbtn">#F8FE85</color>
+    <color name="redbtn">#FF6464</color>
 
 </resources>
